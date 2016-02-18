@@ -28,7 +28,7 @@ header{
 
 main{
     width: 70%;
-    height: 100%;
+    height: 94%;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -67,12 +67,14 @@ section{
 }
 
 div{
-    width: calc(100%/2);
+    width: calc(98%/2);
     height: 50%;
-    margin: 0 auto;
+    margin-top: 1%;
     padding: 0;
-    display: block;
+    display: inline-block;
     float: left;
+    border-radius: .5em;
+    
 }
 
 #leftlogo{
@@ -88,14 +90,51 @@ div{
 }
 
 #section1{
+    width: 70%;
+    margin-right: .5%;
     text-align: left;
-    font-size: 1em;
-    background-color: antiquewhite;
+    font-size: 1.2em;
+    background-color: #ffffff;
     color: #000000;
+    list-style: none;
+    
 }
 
 #section2{
+    width: 29%;
+    margin-left: .5%;
     text-align: left;
-    background-color: antiquewhite;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+footer{
+    width: 70%;
+    height:10rem;
+    margin-top: 1%;
+    margin-left: 15%;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: .5em;
+}
+
+footer > nav > span{
+    line-height: 10rem;
+    padding-left: 5%;
+    font-size: 1em;
+    display:inline;
+    text-align: center;
+    
+}
+section > div > span{
+    font-size: .8em;
+    
+}
+
+section > div > span >a{
+    text-decoration: none;
     color: #000000;
 }
