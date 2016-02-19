@@ -69,6 +69,7 @@ section{
 div{
     width: calc(98%/2);
     height: 100%;
+    margin: 0 auto;
     padding: 0;
     display: inline-block;
     float: left;
@@ -92,8 +93,7 @@ div{
     width: 70%;
     margin-right: .5%;
     margin-top: 1%;
-    text-align: center;
-    font-size: .7em;
+    font-size: .63em;
     background-color: #ffffff;
     color: #000000;
     list-style: none;
@@ -105,10 +105,8 @@ div{
     margin:0 auto;
     margin-top: 1%;
     margin-left: .5%;
-    
     text-align: center;
     font-size: .9em;
-    
     background-color: #ffffff;
     color: #000000;
 }
@@ -173,5 +171,8 @@ footer > nav > ul > li{
     margin: 0 auto;
     margin-top: 5%;
     
-    
+}
+
+h5{
+    color: #000000;
 }
