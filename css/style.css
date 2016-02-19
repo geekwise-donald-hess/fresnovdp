@@ -69,7 +69,6 @@ section{
 div{
     width: calc(98%/2);
     height: 50%;
-    margin-top: 1%;
     padding: 0;
     display: inline-block;
     float: left;
@@ -92,6 +91,7 @@ div{
 #section1{
     width: 70%;
     margin-right: .5%;
+    margin-top: 1%;
     text-align: left;
     font-size: 1.2em;
     background-color: #ffffff;
@@ -102,9 +102,13 @@ div{
 
 #section2{
     width: 29%;
-    margin-left: .5%;
-    text-align: left;
-    font-size: 1em;
+    margin:0 auto;
+    margin-top: 1%;
+   
+    
+    text-align: center;
+    font-size: .9em;
+    
     background-color: #ffffff;
     color: #000000;
 }
@@ -134,12 +138,21 @@ body > span >p{
 }
 section > div > span{
     font-size: .8em;
+    color: #000000;
+    text-decoration: none;
     
 }
 
 section > div > span >a{
-    text-decoration: ;
     color: #000000;
+    text-decoration: none;
+    
+}
+
+section > div > span >a:hover{
+    color: #707070;
+    text-decoration: underline;
+    
 }
 
 footer > nav > ul > li{
@@ -152,9 +165,14 @@ footer > nav > ul > li{
 }
 
 .branches{
-    margin-left: 2em;
-    width: 50px;
-    height: 50px;
-   
+    margin-left: calc(100%/5);
+    width: 40%;
+       
+}
+
+#donate{
+    margin: 0 auto;
+    margin-top: 5%;
+    
     
 }
