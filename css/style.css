@@ -44,11 +44,11 @@ header > nav > ul{
 }
 
 header > nav > ul > li{
-    width: calc(60%/5);
+    width: calc(60%/6);
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     text-transform: capitalize;
-    display: inline-block;
+    display: block;
     color: #ffffff;
     font-size: 2rem;
 }
@@ -114,14 +114,13 @@ div{
 }
 
 footer{
-    width: 70%;
-    height:10rem;
+   width: 70%;
+    height: 15%;
     margin-top: 1%;
     margin-left: 15%;
     padding: 0;
     background-color: #ffffff;
     display: inline-block;
-    font-size: 1.5rem;
     border-radius: .5em;
 }
 
