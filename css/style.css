@@ -56,7 +56,7 @@ header > nav > ul > li{
     text-transform: capitalize;
     color: #ffffff;
     float:left;
-    font-size:1.4em;
+    font-size:1.5em;
 }
 
 .menu{
@@ -134,7 +134,7 @@ body > span >p{
     margin: 0 auto;
     padding: 0;
     line-height: 1.5em;
-    font-size: .8em;
+    font-size: 1.5em;
     color: #ffffff;
     text-align: center;
     
